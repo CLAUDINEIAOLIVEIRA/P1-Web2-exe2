@@ -8,5 +8,5 @@ Renderize 3 cartões diferentes na tela passando dados variados.
 
 Exercício 2.2: Composição de Componentes (children)
 Crie um componente wrapper chamado Container que aceite a prop children e uma prop titulo.
-O Container deve renderizar uma estrutura fixa com cabeçalho (<h2>) contendo o título e uma caixa delimitadora em volta do conteúdo passado em children.
+O Container deve renderizar uma estrutura fixa com cabeçalho h2 contendo o título e uma caixa delimitadora em volta do conteúdo passado em children.
 
