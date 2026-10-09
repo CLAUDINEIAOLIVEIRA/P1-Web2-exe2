@@ -222,8 +222,35 @@ main {
 | Carla e Manoela | "Status: Online" em **verde** |
 | Vick | "Status: Offline" em **cinza** |
 
+## Como rodar o projeto baixado do GitHub
+
+A pasta `node_modules` não vai para o GitHub, então depois de baixar o projeto é preciso instalar as dependências uma vez.
+
+**1. Baixe o repositório.** Pode ser pelo botão verde **Code > Download ZIP** no GitHub (depois extraia o .zip) ou pelo terminal:
+
+```
+git clone https://github.com/CLAUDINEIAOLIVEIRA/P1-Web2-exe2
+```
+
+**2. Entre na pasta do projeto.** 
+
+```
+cd P1-Web2-exe2
+```
+
+**3. Instale as dependências e rode.**
+
+```
+npm install
+npm run dev
+```
+
+Abra `http://localhost:5173` no navegador.
+
 ## Problemas comuns
 
+- **Erro `Não foi possível encontrar um parâmetro posicional que aceite o argumento` ao usar `cd`**: o nome da pasta tem espaço (por exemplo, `Exercicio 1`). Coloque o caminho entre aspas: `cd "Exercicio 1"`. Outra forma é digitar o começo do nome e apertar **Tab**, que o terminal completa e coloca as aspas sozinho.
+- **Erro `Não é possível localizar o caminho ... porque ele não existe` ao usar `cd`**: o terminal está em outra pasta. Veja o caminho que aparece antes do `>` no terminal. Para subir uma pasta, use `cd ..`.
 - **Tela em branco**: aperte `F12` e veja a aba **Console**. Normalmente é um erro de digitação no nome do arquivo do `import` (maiúsculas e minúsculas contam).
 - **Erro `Failed to resolve import "./App.css"`**: o `App.jsx` antigo ainda importa o `App.css` que foi apagado. Substitua todo o `App.jsx` como no Passo 8.
 - **As fotos não aparecem**: as imagens vêm da internet (`pravatar.cc`). Sem internet, o cartão aparece só com o texto alternativo.
