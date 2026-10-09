@@ -7,21 +7,21 @@ function App() {
       <Container titulo="Equipe do Projeto">
         <div className="lista-cards">
           <ProfileCard
-            nome="Maria Souza"
+            nome="Carla"
             cargo="Desenvolvedora Front-end"
-            imagemUrl="https://i.pravatar.cc/150?img=47"
+            imagemUrl="https://i.pravatar.cc/150?img=5"
             ativo={true}
           />
           <ProfileCard
-            nome="João Lima"
+            nome="Vick"
             cargo="Designer de Interfaces"
-            imagemUrl="https://i.pravatar.cc/150?img=12"
+            imagemUrl="https://i.pravatar.cc/150?img=44"
             ativo={false}
           />
           <ProfileCard
-            nome="Ana Costa"
+            nome="Manoela"
             cargo="Gerente de Projetos"
-            imagemUrl="https://i.pravatar.cc/150?img=32"
+            imagemUrl="https://i.pravatar.cc/150?img=45"
             ativo={true}
           />
         </div>

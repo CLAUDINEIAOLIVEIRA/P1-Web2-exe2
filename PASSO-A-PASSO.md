@@ -100,21 +100,21 @@ function App() {
       <Container titulo="Equipe do Projeto">
         <div className="lista-cards">
           <ProfileCard
-            nome="Maria Souza"
+            nome="Carla"
             cargo="Desenvolvedora Front-end"
-            imagemUrl="https://i.pravatar.cc/150?img=47"
+            imagemUrl="https://i.pravatar.cc/150?img=5"
             ativo={true}
           />
           <ProfileCard
-            nome="João Lima"
+            nome="Vick"
             cargo="Designer de Interfaces"
-            imagemUrl="https://i.pravatar.cc/150?img=12"
+            imagemUrl="https://i.pravatar.cc/150?img=44"
             ativo={false}
           />
           <ProfileCard
-            nome="Ana Costa"
+            nome="Manoela"
             cargo="Gerente de Projetos"
-            imagemUrl="https://i.pravatar.cc/150?img=32"
+            imagemUrl="https://i.pravatar.cc/150?img=45"
             ativo={true}
           />
         </div>
@@ -219,15 +219,15 @@ main {
 | Título | "Equipe do Projeto" em um `<h2>` |
 | Caixa | Borda azul em volta dos cartões (Container) |
 | Cartões | 3 cartões com foto, nome e cargo diferentes |
-| Maria e Ana | "Status: Online" em **verde** |
-| João | "Status: Offline" em **cinza** |
+| Carla e Manoela | "Status: Online" em **verde** |
+| Vick | "Status: Offline" em **cinza** |
 
 ## Problemas comuns
 
 - **Tela em branco**: aperte `F12` e veja a aba **Console**. Normalmente é um erro de digitação no nome do arquivo do `import` (maiúsculas e minúsculas contam).
 - **Erro `Failed to resolve import "./App.css"`**: o `App.jsx` antigo ainda importa o `App.css` que foi apagado. Substitua todo o `App.jsx` como no Passo 8.
 - **As fotos não aparecem**: as imagens vêm da internet (`pravatar.cc`). Sem internet, o cartão aparece só com o texto alternativo.
-- **Cartão do João aparece Online**: foi escrito `ativo="false"` em vez de `ativo={false}`.
+- **Cartão da Vick aparece Online**: foi escrito `ativo="false"` em vez de `ativo={false}`.
 - **Erro dizendo que a execução de scripts foi desabilitada, ao rodar `npm`**: troque o terminal para o **Prompt de Comando (cmd)**, pela setinha ao lado do `+` no terminal do VS Code.
 
 ## Entrega
